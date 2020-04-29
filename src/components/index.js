@@ -1,4 +1,4 @@
-const apiRoutes = require("express").Route();
+const apiRoutes = require("express").Router();
 
 apiRoutes.use(require("./todos"));
 
